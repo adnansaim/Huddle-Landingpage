@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.service-heading {
+    @apply font-poppins text-xl mt-16 mb-4 text-darkcyan;
+}
+
+.service-paragraph {
+    @apply w-[90%] text-[14px] mx-auto font-medium;
+}
